@@ -1,0 +1,33 @@
+#line 1 "device/samsung_slsi/sepolicy/common/vendor/property_contexts"
+### cbd
+vendor.cbd.                    u:object_r:vendor_cbd_prop:s0
+persist.vendor.cbd.            u:object_r:vendor_radio_prop:s0
+
+### radio
+ro.vendor.multisim.            u:object_r:vendor_radio_prop:s0
+ro.vendor.radio.               u:object_r:vendor_radio_prop:s0
+
+### fastcharge
+persist.vendor.sec.fastchg_enabled     u:object_r:vendor_fastcharge_prop:s0
+
+### wifi
+vendor.wifi.                   u:object_r:vendor_wifi_prop:s0
+ro.vendor.wifi.                u:object_r:vendor_wifi_prop:s0
+#line 1 "device/samsung_slsi/sepolicy/tee/mobicore/legacy/property_contexts"
+sys.mobicoredaemon.enable           u:object_r:tee_prop:s0
+#line 1 "device/samsung/universal5420-common/sepolicy/vendor/property_contexts"
+# camera
+persist.sys.camera                u:object_r:camera_prop:s0
+
+# radio
+persist.ril.      u:object_r:radio_prop:s0
+
+# NFC
+persist.nfc.log.index            u:object_r:vendor_nfc_prop:s0
+vendor.nfc.fw.                   u:object_r:vendor_nfc_prop:s0 
+persist.vendor.nfc.log.index     u:object_r:vendor_nfc_prop:s0
+#ro.build.selinux    u:object_r:exported2_default_prop:s0
+#ro.product.system.manufacturer u:object_r:exported2_default_prop:s0
+#line 1 "device/lineage/sepolicy/common/vendor/property_contexts"
+# FM Radio app
+ro.vendor.builtin_fm_antenna_support	u:object_r:vendor_fm_radio_app_prop:s0 exact bool

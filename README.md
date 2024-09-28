@@ -1,0 +1,20 @@
+## ha3gxx-user 5.0 LRX21V N900XXUEBPB1 release-keys
+- Manufacturer: samsung
+- Platform: exynos5
+- Codename: ha3g
+- Brand: samsung
+- Flavor: lineage_ha3g-userdebug
+- Release Version: 12
+- Kernel Version: 3.4.113
+- Id: SQ3A.220705.004
+- Incremental: eng.root.20240705.212928
+- Tags: test-keys
+- CPU Abilist: 
+- A/B Device: false
+- Treble Device: false
+- Locale: en-US
+- Screen Density: 480
+- Fingerprint: samsung/ha3gxx/ha3g:5.0/LRX21V/N900XXUEBPB1:user/release-keys
+- OTA version: 
+- Branch: ha3gxx-user-5.0-LRX21V-N900XXUEBPB1-release-keys
+- Repo: samsung_ha3g_dump
